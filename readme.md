@@ -47,7 +47,7 @@ A modern full-stack web app to search, view, and book appointments with top doct
      MONGODB_URI=your_mongodb_uri
      PORT=3000
      ```
-4. **Seed the database (optional)**
+4. **Seed the database**
    - Run the seed route to add dummy doctors:
      ```bash
      # Example: GET http://localhost:3000/api/seed
