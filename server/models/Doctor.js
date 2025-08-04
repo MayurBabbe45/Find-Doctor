@@ -8,10 +8,10 @@ const doctorSchema = new mongoose.Schema({
   fee: Number,
   email: String,
   phone: String,
-  experienceYears: Number, // years of experience
-  patientStories: Number,   // count of patient stories
-  availability: String,     // e.g. "Mon-Fri 10am-4pm"
-  availableToday: Boolean   // for UI badge
+  experienceYears: Number, 
+  patientStories: Number,   
+  availability: String,     
+  availableToday: Boolean   
 });
 
 const Doctor = mongoose.model('Doctor', doctorSchema);
